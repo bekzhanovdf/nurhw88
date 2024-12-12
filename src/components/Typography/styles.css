@@ -1,0 +1,16 @@
+.typography {
+    margin: 10px 0;
+  }
+  
+  .typography.sm {
+    font-size: 12px;
+  }
+  
+  .typography.md {
+    font-size: 16px;
+  }
+  
+  .typography.lg {
+    font-size: 20px;
+  }
+  

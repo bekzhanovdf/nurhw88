@@ -1,0 +1,46 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.label.focused {
+  color: blue;
+}
+
+.label.danger {
+  color: red;
+}
+
+.input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.input:focus {
+  border-color: blue;
+}
+
+.input.danger {
+  border-color: red;
+  color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
